@@ -100,12 +100,12 @@ local UICornerESPToggleButton = Instance.new("UICorner")
 UICornerESPToggleButton.CornerRadius = UDim.new(0, 8)
 UICornerESPToggleButton.Parent = ESPToggleButton
 
--- HBtt
+-- HBmenu
 ToggleButton.Parent = HitboxMenu
 ToggleButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 ToggleButton.BorderColor3 = Color3.fromRGB(154, 76, 199)
 ToggleButton.BorderSizePixel = 1
-ToggleButton.Position = UDim2.new(0.90, 0, 0, 0)
+ToggleButton.Position = UDim2.new(0.90, 0, 0.15, 0)
 ToggleButton.Size = UDim2.new(0, 40, 0, 40)
 ToggleButton.Font = Enum.Font.SourceSansBold
 ToggleButton.Text = "×"
